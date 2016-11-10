@@ -1,0 +1,246 @@
+/* top admin bar */
+
+/* Top link */
+#wp-admin-bar-site-name > .ab-item:before {
+	content: "\f324" !important;
+}
+
+
+/* ---- Dashboard ---- */
+#wp-admin-bar-dashboard a {
+	margin-bottom: 10px !important;
+}
+
+/* Dashboard */
+#wp-admin-bar-dashboard a:before {
+	content: "\f226" !important;
+	color: #ccc !important;
+}
+
+/* Dashboard */
+#wp-admin-bar-dashboard a:hover:before {
+	content: "\f226" !important;
+	color: #0998dd !important;
+}
+
+
+/* ---- Posts ---- */
+#wp-admin-bar-posts a {
+	margin-bottom: 5px !important;
+}
+
+/* Posts */
+#wp-admin-bar-posts a:before {
+	content: "\f109" !important;
+	color: #ccc !important;
+}
+
+/* Posts */
+#wp-admin-bar-posts a:hover:before {
+	content: "\f109" !important;
+	color: #0998dd !important;
+}
+
+
+/* ---- Media ---- */
+#wp-admin-bar-media a {
+	margin-bottom: 5px !important;
+}
+
+/* Media */
+#wp-admin-bar-media a:before {
+	content: "\f104" !important;
+	color: #ccc !important;
+}
+
+/* Media */
+#wp-admin-bar-media a:hover:before {
+	content: "\f104" !important;
+	color: #0998dd !important;
+}
+
+
+/* ---- Pages ---- */
+#wp-admin-bar-pages a {
+	margin-bottom: 5px !important;
+}
+
+/* Pages */
+#wp-admin-bar-pages a:before {
+	content: "\f105" !important;
+	color: #ccc !important;
+}
+
+/* Pages */
+#wp-admin-bar-pages a:hover:before {
+	content: "\f105" !important;
+	color: #0998dd !important;
+}
+
+
+/* ---- Comments ---- */
+#wp-admin-bar-comments-options a {
+	margin-bottom: 10px !important;
+}
+
+/* Comments */ 
+#wp-admin-bar-comments-options a:before {
+	content: "\f101" !important;
+	color: #ccc !important;
+} 
+
+/* Comments */
+#wp-admin-bar-comments-options a:hover:before {
+	content: "\f101" !important;
+	color: #0998dd !important;
+}
+
+/* ---- Appearance ---- */
+#wp-admin-bar-appearance1 a {
+	margin-bottom: 5px !important;
+}
+
+/* Appearance */
+#wp-admin-bar-appearance1 a:before {
+	content: "\f100" !important;
+	color: #ccc !important;
+}
+
+
+/* Appearance */
+#wp-admin-bar-appearance1 a:hover:before {
+	content: "\f100" !important;
+	color: #0998dd !important;
+}
+
+
+/* ---- Plugins ---- */
+#wp-admin-bar-plugins a {
+	margin-bottom: 5px !important;
+}
+
+/* Plugins */
+#wp-admin-bar-plugins a:before {
+	content: "\f106" !important;
+	color: #ccc !important;
+}
+
+/* Plugins */
+#wp-admin-bar-plugins a:hover:before {
+	content: "\f106" !important;
+	color: #0998dd !important;
+}
+
+
+/* ---- Users ---- */
+#wp-admin-bar-users a {
+	margin-bottom: 5px !important;
+}
+
+/* Users */
+#wp-admin-bar-users a:before {
+	content: "\f110" !important;
+	color: #ccc !important;
+}
+
+/* Users */
+#wp-admin-bar-users a:hover:before {
+	content: "\f110" !important;
+	color: #0998dd !important;
+}
+
+
+/* ---- Tools ---- */
+#wp-admin-bar-tools a {
+	margin-bottom: 5px !important;
+}
+
+/* Tools */
+#wp-admin-bar-tools a:before {
+	content: "\f107" !important;
+	color: #ccc !important;
+}
+
+/* Tools */
+#wp-admin-bar-tools a:hover:before {
+	content: "\f107" !important;
+	color: #0998dd !important;
+}
+
+
+/* ---- Settings ---- */
+#wp-admin-bar-options a {
+	margin-bottom: 5px !important;
+}
+
+/* Settings */
+#wp-admin-bar-options a:before {
+	content: "\f108" !important;
+	color: #ccc !important;
+}
+
+/* Settings */
+#wp-admin-bar-options a:hover:before {
+	content: "\f108" !important;
+	color: #0998dd !important;
+}
+
+
+/* The following sections are for whatever reason not being included with a sub drop down in Appearance so that I am including them here instead.  */
+
+/* ---- Themes ---- */
+
+#wp-admin-bar-themes  {
+	border-top: 1px solid #ccc;
+	margin-top: 5px !important;
+}
+
+
+#wp-admin-bar-themes a {
+	margin-bottom: 5px !important;
+}
+
+#wp-admin-bar-themes a:before {
+	content: "\f233" !important;
+	color: #ccc !important;
+}
+
+#wp-admin-bar-themes a:hover:before {
+	content: "\f233" !important;
+	color: #0998dd !important;
+}
+
+
+/* ---- Widgets ---- */
+
+#wp-admin-bar-widgets a {
+	margin-bottom: 5px !important;
+}
+
+#wp-admin-bar-widgets a:before {
+	content: "\f111" !important;
+	color: #ccc !important;
+}
+
+#wp-admin-bar-widgets a:hover:before {
+	content: "\f111" !important;
+	color: #0998dd !important;
+}
+
+
+/* ---- Menus ---- */
+
+#wp-admin-bar-menus a {
+	margin-bottom: 5px !important;
+}
+
+#wp-admin-bar-menus a:before {
+	content: "\f333" !important;
+	color: #ccc !important;
+}
+
+#wp-admin-bar-menus a:hover:before {
+	content: "\f333" !important;
+	color: #0998dd !important;
+}
+

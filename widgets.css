@@ -1,0 +1,527 @@
+/*---------------- WIDGETS ------------------*/
+
+
+/*.home .sidebar-primary {
+	float: right;
+	width: 320px;
+	
+	/* Added *!/
+	margin-top: 60px;
+	
+    font-weight: 500;
+    border: 0 !important;
+}
+
+
+body.home {
+	background-color: #fff; /* #efeeda *!/
+}*/
+
+
+.home .body-background-widget,
+.single .body-background-widget {
+	display: none;
+}
+
+
+.page-id-637 .body-background-widget   {
+	background: #fcfcfc url('images/Blue-bubbles.jpg') no-repeat left top;
+	
+	position: fixed;
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+	top: 28px;
+	z-index: -1;
+}
+
+.page-id-637 .preheader-container,
+.page-id-637 .footer-header,
+.page-id-637 .footer-widgets,
+.page-id-637 .site-title {
+	display: none;
+}
+
+.page-id-637 .site-header {
+	width: 300px;
+	background: none;
+}
+
+.page-id-637 .header-widget-area {
+	max-width: 60%;
+	border: 1px solid #ccc;
+	height: 500px;
+	color: #000;
+	background: #fff;
+	opacity: 0.8;
+	padding: 3px;
+	border-radius: 9px;
+	
+}
+
+
+
+
+/* ------ Header sections ----- */
+
+
+.preheader-container {
+	/*background: #eaf6dd;*/
+}
+
+
+.preheader-right {
+	text-align: right;
+	float: right;
+	padding-right: 4px;
+	margin: 3px 10px 0 0;
+	border: 2px solid #ccc;
+	min-width: 180px;
+	max-width: 40%;
+}
+
+.preheader-left {
+	text-align: left;
+	float: left;
+	padding-left: 4px;
+	margin: 3px 0 0 10px;
+	border: 2px solid #ccc;
+	min-width: 180px;
+	max-width: 40%;
+}
+
+.header-widget-area {
+	max-width: 60%;
+	border: 1px solid #ccc;
+	color: red;
+	padding: 3px;
+	
+}
+
+.site-header .widget-area {
+	float: right;
+	text-align: left;
+	width: 75%;
+}
+
+
+
+/* ----- Home Widgets ------ */
+
+.home-featured-full {
+	padding: 0;
+	/* width: 95%; */
+	border: 2px solid #ccc;
+	margin: auto;
+	padding: 5px;
+}
+
+/* Contains home featured left and right */
+#home-featured-halves {
+	padding: 5px;
+	width: 100%;
+}
+
+.home-featured-left {
+	padding: 5px;
+	width: 50%;		/* Adjusted 50% */
+	float: left;
+	
+	border: 2px solid #ccc;
+	
+}
+
+.home-featured-right {
+	padding: 5px;
+	float: left;
+	width: 50%;
+	border: 2px solid #ccc;
+	
+}
+
+
+/* ----- Home Middle ---- */
+
+#home-middle,
+#home-featured,
+.home-bottom {
+	clear: both;
+	padding: 10px 0 5px;		/* Adjusted 20px 016px */
+	padding: 1.2rem 0 0.2rem;  /* Adjusted 1.25rem 0 1.6rem */
+}
+
+
+.home-middle-1,
+.home-middle-2,
+.home-middle-3 {
+	width: 30%;
+	border: 2px solid #ccc;
+	padding: 5px;
+}
+
+.home-middle-2 {
+	width: 360px;
+}
+
+.home-middle-1 {
+	margin-right: 40px;
+}
+
+.home-middle-1,
+.home-middle-2 {
+	float: left;
+}
+
+.home-middle-3 {
+	float: right;
+}
+
+#home-middle a {
+	color: #20b40c;
+}
+
+#home-middle a:hover {
+	color: #ccc;
+}
+
+#home-middle .widget {
+	margin-bottom: 24px;
+	margin-bottom: 2.4rem;
+}
+
+#home-middle .widgettitle {
+	color: #999;
+}
+
+#home-middle li {
+	list-style-type: none;
+	margin-bottom: 6px;
+	margin-bottom: 0.6rem;
+	word-wrap: break-word;
+}
+
+#home-middle .search-form {
+	width: 100%;
+}
+
+
+#home-bottom {
+	border: 2px solid #ccc;
+	padding: 5px;
+}
+
+
+/* ----- Before entry - single post widget ----*/
+
+.before-entry {
+   /* background: url(assets/img/lines.png); */
+   border-radius: 10px;
+   background-size: 8px 8px;
+   margin-top: 5px;
+}
+
+.before-entry .wrap {
+   background-color: #fff;
+   padding: 32px;
+   border: 1px solid #333;
+}
+
+.before-entry p {
+   margin-bottom: 20px;
+}
+
+before-entry .widget-title,
+.archive-title,
+.comments-title,
+.widget .entry-title {
+   font-size: 20px;
+}
+
+
+/* ----- After entry - single post widget ----*/
+
+.after-entry {
+   /* background: url(assets/img/lines.png); */
+   border-radius: 10px;
+   border: 1px solid #ccc;
+   background-size: 8px 8px;
+   margin-top: 5px;
+   width: 90%;
+   padding: 15px;
+}
+
+.after-entry .wrap {
+   background-color: #fff;
+   padding: 32px;
+}
+
+.after-entry p {
+   margin-bottom: 20px;
+}
+
+.after-entry .widget-title,
+.archive-title,
+.comments-title,
+.widget .entry-title {
+   font-size: 20px;
+}
+
+
+/* ------ Footer Widgets --------- */
+
+
+/* Added as an extra area right above the footer. */
+.footer-header {
+   background-color: #0aed0a;
+   clear: both;
+   font-size: 16px;
+   margin: auto;
+   /*max-width: 1140px;*/
+   /* padding: 36px 36px 0; */
+   border: 2px solid #DDD;
+  
+   box-shadow: 0px 1px 10px -4px #000, 0px 0px 40px #EEEEEE;
+   box-shadow: 0px 3px 5px #444; 
+   width: 100%;
+   padding: 5px;
+}
+
+/* Inner Footer Header area */
+.footer-header .wrap {
+   padding: 8px;
+}
+
+.footer-header .widget-title {
+	text-align: center;
+	font-size: 30px;
+	margin: 20px auto;
+}
+
+
+.footer-widgets {
+	color: #999;
+	clear: both;
+	font-size: 14px;
+	font-size: 1.4rem;
+	padding: 20px 0 16px;
+	padding: 2rem 0 1.6rem;
+}
+
+.footer-widgets-1,
+.footer-widgets-2,
+.footer-widgets-3 {
+	width: 30%;
+	border: 1px solid #ccc;
+	padding: 5px;
+}
+
+
+.footer-widgets-1 {
+	margin-right: 40px;
+}
+
+.footer-widgets-1,
+.footer-widgets-2 {
+	float: left;
+}
+
+.footer-widgets-3 {
+	float: right;
+}
+
+.footer-widgets a {
+	color: #999;
+}
+
+.footer-widgets a:hover {
+	color: #ccc;
+}
+
+.footer-widgets .widget {
+	margin-bottom: 24px;
+	margin-bottom: 2.4rem;
+}
+
+.footer-widgets .widgettitle {
+	color: #999;
+}
+
+
+
+/*
+Media Queries
+---------------------------------------------------------------------------------------------------- */
+
+/* Desktops, laptops and iPads (landscape)
+--------------------------------------------- 
+
+@media only screen and (max-width: 1139px) {
+
+	.wrap {
+		max-width: 960px;
+	}
+
+	.content-sidebar-sidebar .content-sidebar-wrap,
+	.sidebar-content-sidebar .content-sidebar-wrap,
+	.sidebar-sidebar-content .content-sidebar-wrap {
+		width: 740px;
+	}
+	
+	.content,
+	.site-header .widget-area {
+		width: 620px;
+	}
+
+	.sidebar-content-sidebar .content,
+	.sidebar-sidebar-content .content,
+	.content-sidebar-sidebar .content {
+		width: 400px;
+	}
+
+	.home-middle-1,
+	.home-middle-2,
+	.home-middle-3,
+	.footer-widgets-1,
+	.footer-widgets-2,
+	.footer-widgets-3,
+	.sidebar-primary,
+	.title-area {
+		width: 300px;
+	}
+
+}
+
+/* iPads (portrait)
+--------------------------------------------- 
+
+@media only screen and (max-width: 1023px) {
+
+	.content,
+	.content-sidebar-sidebar .content,
+	.content-sidebar-sidebar .content-sidebar-wrap,
+	.footer-widgets-1,
+	.footer-widgets-2,
+	.footer-widgets-3,
+	.home-middle-1,
+	.home-middle-2,
+	.home-middle-3,
+	.sidebar-content-sidebar #content,
+	.sidebar-content-sidebar .content,
+	.sidebar-content-sidebar .content-sidebar-wrap,
+	.sidebar-primary,
+	.sidebar-secondary,
+	.sidebar-sidebar-content #content,
+	.sidebar-sidebar-content .content,
+	.sidebar-sidebar-content .content-sidebar-wrap,
+	.site-header .widget-area,
+	.title-area,
+	.wrap {
+		width: 100%;
+	}
+
+	.site-inner {
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+
+	.archive-description,
+	.author-box,
+	.entry,
+	.entry-footer .entry-meta,
+	.sidebar .widget,
+	.site-header,
+	#comments,
+	#respond {
+		padding: 0;
+	}
+
+	.site-inner {
+		background: none;
+	}
+
+	.genesis-nav-menu li,
+	.site-header ul.genesis-nav-menu,
+	.site-header .search-form {
+		float: none;
+	}
+
+	.genesis-nav-menu,
+	.site-description,
+	.site-header hgroup,
+	.site-header .search-form,
+	.site-description,
+	.site-title {
+		text-align: center;
+	}
+
+	.genesis-nav-menu a,
+	.genesis-nav-menu > .first > a,
+	.genesis-nav-menu > .last > a {
+		padding: 20px 16px;
+		padding: 2rem 1.6rem;
+	}
+
+	.site-header .search-form {
+		margin: 16px auto ;
+		margin: 1.6rem auto;
+	}
+
+	.genesis-nav-menu li.right {
+		display: none;
+	}
+
+	.entry-footer .entry-meta {
+		margin: 0;
+		padding-top: 12px;
+		padding-top: 1.2rem;
+	}
+
+	.sidebar .widget.enews-widget {
+		padding: 40px;
+		padding: 4rem;
+	}
+
+	.site-footer {
+		padding: 24px 0;
+		padding: 2.4rem 0;
+	}
+
+	.footer-widgets,
+	#home-middle,
+	#home-featured,
+	#home-bottom  {
+		padding: 40px 5% 16px;
+	}
+
+	.footer-widgets-1,
+	.home-middle-1 {
+		margin: 0;
+	}
+
+}
+
+/* iPhones (portrait and landscape)
+--------------------------------------------- 
+
+@media only screen and (max-width: 767px) {
+
+	.five-sixths,
+	.four-fifths,
+	.four-sixths,
+	.one-fifth,
+	.one-fourth,
+	.one-half,
+	.one-sixth,
+	.one-third,
+	.three-fifths,
+	.three-fourths,
+	.three-sixths,
+	.two-fifths,
+	.two-fourths,
+	.two-sixths,
+	.two-thirds {
+		margin: 0;
+		width: 100%;
+	}
+
+}
